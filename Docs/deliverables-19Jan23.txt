@@ -1,0 +1,16 @@
+existing sb applications and pure java apps
+they want to establish containerization and devops
+
+Come up with a questionnaire for above
+
+
+
+
+
+
+Akhilesh
+Azure APIM is already in place, they want to establish the complete API lifecycle mgmt (contract, validate, update, policies)
+2 Angular based webapps, cloudflare as WAF
+
+
+Evaluate -> Process, people, technology

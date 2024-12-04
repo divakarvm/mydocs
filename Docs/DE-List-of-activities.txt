@@ -1,0 +1,12 @@
+Best practices for frontend, backend, API dev
+All required levels of accesses for the team (Code and Proj Mgmt)
+
+
+Periodic code review before moving to higher env from Dev
+Periodic governance to ensure implementation is in line with design
+
+re-evaluation of efforts in case of scope change
+
+
+
+Prod rollout checklist

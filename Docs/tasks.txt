@@ -1,0 +1,39 @@
+UI Activities
+-------------
+
+Code Merge
+Update configuration files
+Role creation for Commercial/Contract UW --> check with Yogesh
+Commercial dummy page creation --> check with Yogesh
+Contract dummy page creation --> check with Yogesh
+Runtime property resolution
+	a. R&D
+	b. Implementation
+Deployment to Dev (includes Dev branch updates)
+Deployment to Int (includes Int branch updates)
+Deployment to Stage (includes Stage branch updates)
+
+Experience API 
+--------------
+1. New code repo
+2. CI/CD setup (JFrog, ArgoCD)
+3. AKS Pod setup
+4. Development of actual API
+	a. Implementation of API
+	b. Code to handle Authentication
+	c. Code to handle Routing : Configurations (Dev, Int, Stage, Prod)
+	d. Code to handle Caching	
+5. Deployment
+	a. Dev
+	b. Int
+	c. Stage
+	d. PROD 
+
+Java API
+--------
+1. Code Merge
+2. Deploy to Dev, Int & Stage
+
+
+Track 2
+-------

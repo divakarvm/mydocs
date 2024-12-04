@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://docs.insomnia.rest/insomnia/declarative-config -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="/assets/images/insomnia-docs-share.png">
+    <link rel="shortcut icon" type="image/svg" href="https://docs.insomnia.rest/assets/images/insomnia-favicon.svg">
+    
+    
+    <link rel="canonical" href="https://docs.insomnia.rest/insomnia/declarative-config">
+    
+    
+        <title>Kong Declarative Config (for decK) | Insomnia Docs</title>
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Kong Declarative Config (for decK) _ Insomnia Docs_files/css2" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./Kong Declarative Config (for decK) _ Insomnia Docs_files/styles.css">
+    <!--  Bootstrap JS -->
+    <script src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/popper.min.js.download" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/bootstrap.min.js.download" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Algolia Styling -->
+    <link rel="stylesheet" href="./Kong Declarative Config (for decK) _ Insomnia Docs_files/docsearch.min.css">
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-D7C46HBHG2');
+        </script>
+    
+</head>
+
+  <body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a href="https://docs.insomnia.rest/">
+    <img src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/insomnia-docs-logo.png" alt="Insomnia logo" id="inso-logo">
+  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <form class="form-inline">
+        <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input id="algolia-input" class="form-control mr-sm-2 ds-input" type="search" placeholder="Search" aria-label="Search" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="ds-dataset-1"></div></span></span>
+        <!-- <button class="btn btn-light my-2 my-sm-0" id="main-search" type="button">Search</button> -->
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://docs.insomnia.rest/insomnia/get-started">Documentation</a>
+        </li>
+        <li class="nav-item">
+            <span>
+              <a class="nav-link" href="https://insomnia.rest/download">
+                Download
+                <img class="ext-arrow" src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/ext-arrow-white.svg" alt="">
+              </a>
+            </span>
+          </li>
+        <li class="nav-item">
+          <span>
+            <a class="nav-link" href="https://insomnia.rest/pricing">
+              Upgrade
+              <img class="ext-arrow" src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/ext-arrow-white.svg" alt="">
+            </a>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<script type="text/javascript" src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/docsearch.min.js.download"></script>
+
+<script type="text/javascript">
+  docsearch({
+    appId: 'IBXE7R5KFS',
+    apiKey: '65f451796f36a6d7df9814965f5de7ac',
+    indexName: 'insomnia_docs',
+    inputSelector: '#algolia-input',
+    algoliaOptions: {
+      hitsPerPage: 8
+    }
+    // ,debug: true // Set debug to true if you want to inspect the dropdown
+  })
+</script>
+      <div class="container">
+    <div class="container-fluid article-detail-container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="flex-shrink-0 bg-white sticky-top z-sidebar">
+  <ul class="list-unstyled ps-0">
+    <li class="mb-1">
+    
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#get-started-collapse" aria-expanded="true">
+        <span>
+          Get Started, Design Debug and Test
+        </span>
+      </button>
+        <div class="collapse " id="get-started-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/get-started">
+                Introduction to Insomnia
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/install">
+                Install Insomnia
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/send-your-first-request">
+                Send Your First Request
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/import-export-data">
+                Import and Export Data
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/environment-variables">
+                Environment Variables
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/workspaces">
+                Insomnia Workspaces
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#insomnia-accounts-collapse" aria-expanded="true">
+        <span>
+          Insomnia Accounts
+        </span>
+      </button>
+        <div class="collapse " id="insomnia-accounts-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/accounts">
+                Insomnia Accounts
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/forgot-password">
+                Forgotten Passwords
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/change-password">
+                Change Password
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#teams-collapse" aria-expanded="true">
+        <span>
+          Insomnia Teams
+        </span>
+      </button>
+        <div class="collapse " id="teams-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/insomnia-teams">
+                Insomnia Teams
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#subscriptions-collapse" aria-expanded="true">
+        <span>
+          Insomnia Sync Subscriptions
+        </span>
+      </button>
+        <div class="collapse " id="subscriptions-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/subscriptions">
+                Insomnia Subscriptions
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/subscription-management">
+                Insomnia Subscription Management
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#debug-collapse" aria-expanded="true">
+        <span>
+          Debug Requests and Responses
+        </span>
+      </button>
+        <div class="collapse " id="debug-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/requests">
+                Requests
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/responses">
+                Responses
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/request-collections">
+                Request Collections
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/request-timeouts">
+                Request Timeouts
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/chaining-requests">
+                Chaining Requests
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/post-csv-data">
+                Post CSV Data
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/soap-requests">
+                SOAP Requests
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/grpc">
+                gRPC
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/websockets">
+                WebSocket Support
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#design-collapse" aria-expanded="true">
+        <span>
+          Design APIs
+        </span>
+      </button>
+        <div class="collapse " id="design-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/get-started-with-documents">
+                Get Started with Documents
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/design-documents">
+                Design Documents
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/linting">
+                Linting
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/graphql-for-openapi">
+                GraphQL for OpenAPI
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/migrate-from-designer">
+                Migrate from Designer
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#test-collapse" aria-expanded="true">
+        <span>
+          Test APIs
+        </span>
+      </button>
+        <div class="collapse " id="test-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/unit-testing">
+                Unit Testing
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/stress-testing">
+                Stress Testing
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#insomnia-sync-collapse" aria-expanded="true">
+        <span>
+          Sync with Insomnia Collections with Insomnia Cloud
+        </span>
+      </button>
+        <div class="collapse " id="insomnia-sync-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/insomnia-sign-login">
+                Sign into Insomnia Cloud
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/insomnia-sync">
+                Sync Collections with Insomnia Cloud
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/teams">
+                Teams
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/data-encryption">
+                End to End Data Encryption
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#git-sync-collapse" aria-expanded="true">
+        <span>
+          Sync with Design Documents with Git
+        </span>
+      </button>
+        <div class="collapse " id="git-sync-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/git-sync">
+                Sync with Git
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#security-collapse" aria-expanded="true">
+        <span>
+          Security
+        </span>
+      </button>
+        <div class="collapse " id="security-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/security-features">
+                Key Security Features
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/security-standards">
+                Security Standards
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/signup-and-auth">
+                Signup and Authentication
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/analytics-collected">
+                Analytics Collected
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#features-collapse" aria-expanded="true">
+        <span>
+          Built-In Features
+        </span>
+      </button>
+        <div class="collapse " id="features-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/authentication">
+                Authentication
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/client-certificates">
+                Client Certificates
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/generate-code-snippet">
+                Generate Code Snippet
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/cookie-management">
+                Cookie Management
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/encoding">
+                Encoding
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/graphql-queries">
+                GraphQL Queries
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/run-in-insomnia-button">
+                Run in Insomnia Button
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/key-maps">
+                Key Maps
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/http-proxy">
+                HTTP(S) Proxy
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/insomnia-config-file">
+                Insomnia Configuration File
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#plugins-collapse" aria-expanded="true">
+        <span>
+          Plugins
+        </span>
+      </button>
+        <div class="collapse " id="plugins-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/introduction-to-plugins">
+                Introduction to Plugins
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/context-object-reference">
+                Context Object Reference
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/template-tags">
+                Template Tags
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/hooks-and-actions">
+                Hooks and Actions
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/custom-themes">
+                Custom Themes
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#troubleshooting-collapse" aria-expanded="true">
+        <span>
+          Troubleshooting
+        </span>
+      </button>
+        <div class="collapse " id="troubleshooting-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/faq">
+                FAQ
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/application-data">
+                Application Data
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/ssl-validation">
+                SSL Validation
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/password-recovery">
+                Password Recovery
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#cli-collapse" aria-expanded="true">
+        <span>
+          Inso CLI
+        </span>
+      </button>
+        <div class="collapse " id="cli-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/inso-cli/introduction">
+                Introduction to Inso CLI
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/inso-cli/install">
+                Install Inso CLI
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference">
+                CLI Command Reference
+              </a>
+              
+              <div class="collapse ">
+                <ul class="list-unstyled">
+                  
+                    
+                    <li class="doc-link ps-3 pt-1 text-start ">
+                      <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-generate-config">
+                        inso generate config
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="doc-link ps-3 pt-1 text-start ">
+                      <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-run-test">
+                        inso run test
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="doc-link ps-3 pt-1 text-start ">
+                      <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-lint-spec">
+                        inso lint spec
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="doc-link ps-3 pt-1 text-start ">
+                      <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-export-spec">
+                        inso export spec
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="doc-link ps-3 pt-1 text-start ">
+                      <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-script">
+                        inso script
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="doc-link ps-3 pt-1 text-start ">
+                      <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/OAS-spec.yml">
+                        OpenAPI Spec Reference
+                      </a>
+                    </li>
+                  
+                </ul>
+              </div>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/inso-cli/configuration">
+                Configuration
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/inso-cli/inso-on-docker">
+                Inso CLI on Docker
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/inso-cli/continuous-integration">
+                Continuous Integration
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+      <button class="nav-button btn btn-toggle align-items-center rounded collapsed text-start ps-0" data-bs-toggle="collapse" data-bs-target="#kong-products-collapse" aria-expanded="true">
+        <span>
+          Work with Other Kong Products
+        </span>
+      </button>
+        <div class="collapse  show " id="kong-products-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/publish-to-dev-portal">
+                Publish API to Dev Portal
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start  list-active ">
+              <a href="https://docs.insomnia.rest/insomnia/declarative-config">
+                Kong Declarative Config (for decK)
+              </a>
+              
+            </li>
+          
+            
+            <li class="doc-link ps-3 pb-1 text-start ">
+              <a href="https://docs.insomnia.rest/insomnia/kong-for-kubernetes">
+                Kong for Kubernetes
+              </a>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+    </li>
+  </ul>
+</div>
+
+                <script>
+  let anchorForId = function (id) {
+    let anchor = document.createElement("a");
+    anchor.className = "anchor-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<img class=\"anchor-icon\" src=\"/assets/images/anchor-icon.svg\" alt=\"\"></img>";
+    anchor.title = "";
+    return anchor;
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      let className =
+        ".show-anchor-links h1, .show-anchor-links h2, .show-anchor-links h3, " +
+        ".show-anchor-links h4, .show-anchor-links h5, .show-anchor-links h6";
+      let headers = document.querySelectorAll(className);
+
+      for (var i = 0; i < headers.length; i++) {
+        let header = headers[i];
+        if (typeof header.id !== "undefined" && header.id !== "") {
+          header.prepend(anchorForId(header.id));
+        }
+      }
+    }
+  };
+</script>
+
+            </div>
+            <div class="col-md-6 col-lg-7 show-anchor-links">
+                <h1>Kong Declarative Config (for decK)</h1>
+                <p class="alert alert-primary"><strong>Note</strong>: This feature is currently only available on Design Documents with OpenAPI 3.0.X and 3.1 specifications.</p>
+
+<p>Insomnia creates a preformatted <a href="https://docs.konghq.com/deck">decK</a> file when you add endpoints to a Document. You can do this through the UI, as explained below. Or by using the Inso CLI command <a href="https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-generate-config">inso generate config</a>.</p>
+
+<p>You can also upload a Declarative Config file directly to your <a href="https://docs.konghq.com/gateway-oss">Kong Gateway instance</a>. Learn how from the Kong Docs <a href="https://docs.konghq.com/gateway-oss/2.5.x/db-less-and-declarative-config/#loading-the-declarative-configuration-file">Loading the Declarative Configuration File</a>.</p>
+
+<h2 id="get-a-declarative-config-file-through-insomnia"><a class="anchor-link" href="https://docs.insomnia.rest/insomnia/declarative-config#get-a-declarative-config-file-through-insomnia" title=""><img class="anchor-icon" src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/anchor-icon.svg" alt=""></a>Get a Declarative Config File Through Insomnia</h2>
+
+<ol>
+  <li>Open a Document.</li>
+  <li>Add an OpenAPI 3.0 Specification. If you have another Swagger version, use a tool like <a href="https://editor.swagger.io/">editor.swagger.io</a> to convert to OpenAPI 3.0.</li>
+  <li>Click on the arrow next to the Document name.</li>
+  <li>In the dropdown menu, click <strong>Declarative Config</strong>.</li>
+</ol>
+
+<p><img src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/declarative-config.png" alt="Next to the Document name, click the arrow to access the dropdown menu and click Declarative Config"></p>
+
+<h2 id="authentication-in-declarative-config"><a class="anchor-link" href="https://docs.insomnia.rest/insomnia/declarative-config#authentication-in-declarative-config" title=""><img class="anchor-icon" src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/anchor-icon.svg" alt=""></a>Authentication in Declarative Config</h2>
+
+<p>The generated Declarative Configuration file contains authentication plugin information. <code class="language-plaintext highlighter-rouge">openid-connect</code>, as seen in the example screenshot below, is only compatible with Kong Gateway Enterprise. Ensure you define authentication that’s compatible with your Kong Gateway instance.</p>
+
+<p>See <a href="https://github.com/Kong/insomnia/tree/develop/packages/openapi-2-kong#security-plugins">Security Plugins</a> in the <a href="https://github.com/Kong/insomnia/tree/develop/packages/openapi-2-kong#kong-declarative-config">OpenAPI 2 Kong Declarative Config</a> for a list of authentication types and their corresponding plugins.</p>
+
+<p><img src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/dec-config-auth.png" alt="In the generated file, you will see authentication plugins defined."></p>
+
+<p>We use <a href="https://github.com/Kong/insomnia/tree/develop/packages/openapi-2-kong#kong-declarative-config">OpenAPI 2 Kong Declarative Config</a> to generate the Declarative Config file.</p>
+
+            </div>
+            <div class="col-md-3 col-lg-2 text-start z-sidebar">
+                <div class="sticky-top">
+                    <div>
+                        <span><img src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/github-icon.svg" alt="" class="github-icon me-2"></span>
+                        <a href="https://github.com/Kong/insomnia-docs/edit/main/docs/insomnia/declarative-config.md" alt="Edit this page" class="github-link">
+                            Edit this page
+                        </a>
+                    </div>
+                    <div>
+                        <span><img src="./Kong Declarative Config (for decK) _ Insomnia Docs_files/report-problem-icon.svg" alt="" class="github-icon me-2"></span>
+                        <a href="https://github.com/Kong/insomnia-docs/issues" alt="Report an issue" class="github-link">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="footer mt-auto h-100 p-5 text-black" id="docs-footer">
+    <div class="container">
+        <div class="row align-items-md-stretch">
+            <div class="col-md-3">
+                <ul>COMPANY
+                    <li><a href="https://insomnia.rest/">Insomnia</a></li>
+                    <li><a href="https://insomnia.rest/blog">Blog</a></li>
+                    <li><a href="https://insomnia.rest/changelog">Changelog</a></li>
+                    <li><a href="https://insomnia.rest/pricing">Pricing</a></li>
+                    <li><a href="https://jobs.lever.co/kong?department=Engineering">Careers</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>PRODUCTS
+                    <li><a href="https://insomnia.rest/products/insomnia">Insomnia</a></li>
+                    <li><a href="https://insomnia.rest/products/inso">Inso (CLI)</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>RESOURCES
+                    <li><a href="https://app.insomnia.rest/app/login/">Sign In</a></li>
+                    <li><a href="https://docs.insomnia.rest/insomnia/declarative-config#">Documentation</a></li>
+                    <li><a href="https://insomnia.rest/support">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>LEGAL
+                    <li><a href="https://insomnia.rest/privacy">Privacy Policy</a></li>
+                    <li><a href="https://insomnia.rest/terms">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row align-items-md-stretch">
+            <div class="col-md-12">
+                <small id="footer-copyright">© Kong Inc. 2021</small> 
+            </div>
+        </div>
+    </div>  
+</div>
+    <!--<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', 'fce2431f-e83d-4205-b0c6-80fd9c2dc95e')</script>
+-->
+  
+
+</body></html>

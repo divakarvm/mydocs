@@ -1,0 +1,5 @@
+1. Update playbook for finetune/strong wording.
+2. Share the created checklist with strong wording.
+3. Update ruleset based on bandwidth. (optional)
+
+Friday 8:30am PST (9pm IST)

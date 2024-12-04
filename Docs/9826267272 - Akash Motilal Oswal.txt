@@ -1,0 +1,34 @@
+9826267272 - Akash Motilal Oswal
+
+
+
+
+
+{
+
+	"key1":"value",
+	"key2": "value2",
+
+}
+
+
+{
+	"singleKey": "value - value2"
+}
+
+
+First name Divakar
+Last name Kadupu
+
+Full name = Divakar Kadupu
+
+base64encode
+
+
+Translation
+
+TN 07
+
+
+Tamilnadu Chenna
+

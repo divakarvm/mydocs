@@ -1,0 +1,28 @@
+Familiarity with prevalent insurance functionalities and best implementation approaches
+
+Practitioner of 15-factor methodology, API First approach, Microservices and API Life Cycle Management
+
+Practitioner of latest version of respective technology
+
+Understanding on all NFRs and respective implementations
+
+Implementation of Standard application design patterns
+Able to understand design documents
+OAS understanding and API Spec creation
+Understanding on Clean Architecture and SOLID principles
+
+Understanding on Cloud infrastructure and runtimes
+Understanding on deployment models
+
+Practitioner of API, Event-driven and File mediations
+
+Should be configuring CI/CD pipelines
+
+Understand and follow the best practices/guidelines
+
+Well versed with Testing methodologies
+Practitioner of Unit testing
+
+High level understanding on Insurance Enterprise Architecture
+
+Good at application monitoring and troubleshooting

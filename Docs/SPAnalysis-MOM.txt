@@ -1,0 +1,13 @@
+1. Check with BAMS team on determination criteria, is it only invoked from BAMS or Portal or both
+2. Add new columns to depict from where the SP is being called (like resource-method-endpoint)
+3. Parameter count (input & output) for both endpoint and SP
+4. Summary sheet to be kept at later point 
+
+
+Success criteria 
+1. Dev to design a Rest API, resouces for the identified Track 2 usecases
+
+
+Seperation of tables
+
+Approach

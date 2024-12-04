@@ -1,0 +1,28 @@
+Stage 2 (10 Months) April Mid -> Feb End
+
+	Phase 1 (3months)
+		Track 1 - UI -> MFE/MFA
+			-> v8 - v14 along with MFE architecture
+			-> existing backd java services
+		Track 2- Backend
+			-> Design/decompose/rearchitect interms DDD
+		Track 3 - Pilot usecase implementation
+	Phase 2 (3months)
+		Track 1
+			New implementaiton : Commercial -> angular Surety UI - 2 resources
+		Track 2 
+			Underlying backend layer for Commercial (DDD) - 2 resources
+		Track 3
+			210 SPs MSSQL -> Java Layer - 2 dedicated 
+	Phase 3 (2)
+		Track 1
+			New implementaiton : Contract-> angular Surety UI - 2 resources
+		Track 2 
+			Underlying backend layer for Commercial (DDD) - 2 resources
+			
+	
+	Phase 4 (2)
+		
+		Proxy divert traffic to new DDD Microservices
+
+

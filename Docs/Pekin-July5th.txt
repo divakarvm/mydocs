@@ -1,0 +1,10 @@
+Life FOrm migration started off with the current pain point on printing stuff
+legacy systems -> lot of money being spent
+Life
+
+MIgrate forms from Documaker to Docmerge
+
+LiDP format to SmartComm format (Mule has to do it)
+
+
+Any old product which are already configured in documaker and not part of smartcom or current underwriting work which they are still getting printed through documaker only in our batch pass

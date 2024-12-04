@@ -1,0 +1,27 @@
+Quote API
+
+1. getquote
+2. putquote
+3. postquote
+4. saveQuote
+5. retriveQuote
+
+
+
+Quote API proxy for external - 
+
+1. getquote
+
+3. postquote
+
+5. retriveQuote
+
+
+
+WOrkflow
+
+Existing SBI QUote flow >>> Landing Page -> business info -> address -> ownership type -> UW Questions-> Login -> esign -> finalise
+
+Agency Portal QUote flow >>> Landing Page -> business info -> Check whether user is an existing member of usaa -> address -> ownership type -> UW Questions-> Payment -> esign -> finalise
+
+

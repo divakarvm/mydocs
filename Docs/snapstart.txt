@@ -1,0 +1,3 @@
+snapstart
+coordinated checkpoint library
+take snapshot and use it for future deployments

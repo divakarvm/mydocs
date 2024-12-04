@@ -1,0 +1,49 @@
+
+Sales team
+
+Prelim calls 
+
+Approach
+
+Proposal - reviews
+
+
+
+Discovery - Tech stack, devops, deployment environment, How many environments
+
+Estimates
+
+Resource loading (Dev, project mgmt, Architect, QA - Manual, Automation) , Timeline
+
+
+
+
+
+Arch Insurance - Angular + Springboot + DB
+
+
+
+
+Title
+Executive Summary/Agenda
+Current Architecture
+Future state of architecture
+Solution
+Scope/out of scope
+Timeline
+Assumptions
+Dependencies
+Team composition/resource loading
+
+
+
+
+
+
+
+
+
+
+
+
+

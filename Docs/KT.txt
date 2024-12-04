@@ -1,0 +1,38 @@
+surety -> Java Layer -> DBMS
+
+
+Surety -> Proxy -> Java Layer ->DBMS    jboss-url:8080/dlkjfskdlfjlkdsf/lskdfjkdf
+
+				proxyservice-url:8080/dlkjfskdlfjlkdsf/lskdfjkdf
+
+
+Surety -> Proxy -> MS Layer ->DBMS      azurecloudurl:80/lskdfdkfkhdkhdkgh awscloudurl:80
+
+Parallel : New architecture DDD Microservice layer 
+
+
+
+Dev -> Int -> Stage -> PROD
+
+AKS
+Dev -> Int -> Stage -> PROD REPLICA -> PROD
+Feb 17th -> Feb 17th -> May 1st week -> April 7th
+
+Jan 31st -> Mar 31th
+
+
+Stage 1
+
+
+Stage 2
+	Phase 1 (T&M)
+		Track 1 - UI (MFE ANgular upgrade) & MS Layer Design
+		Track 2 - selected use cases for SP
+	Phase 2 (FP) - Commercial BAMS -> Surety, extra effort is only SPs (all 210)
+		Track 1
+	Phase 3 (FP) - Contract BAMS ->
+		Track 1
+	Phase 4 (FP)
+		Track 1
+
+

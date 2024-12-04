@@ -1,0 +1,14 @@
+Platform - Architecture, design
+
+Devops - 1 milestone
+
+Foundational components - simple components (4) & 1 template
+Services - few
+
+
+-----------------------------------
+3 sm 1 med - March
+1 tmp 8 components - March
+4 compnonent + 1 L - April
+
+GoLive is post April

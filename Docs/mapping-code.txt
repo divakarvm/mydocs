@@ -1,0 +1,150 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+var date1 = new Date('1/1/1900');
+var date2 = new Date('11/21/2022');
+
+outputroot =  {};
+//8e047bfc-c812-4b0e-a446-8d46753f89e0
+//outputroot.RequestId = Date.now().toString(36) + Math.random().toString(36).substring(2);
+outputroot.user_code = 'tvsoem';
+outputroot.vehicle_model_code = '581684';
+outputroot.rto_location_code = '12881';
+outputroot.YOR = parseInt((new Date(inputroot.registration_date) - date1) / (1000 * 60 * 60 * 24), 10);
+outputroot.date_of_reg = outputroot.YOR;
+outputroot.val_claim = '';
+outputroot.claim_year = '';
+outputroot.B2B_NCB_App = ''; //only for renewal
+outputroot.Lastyrncb_percentage = ''; //only for renewal
+outputroot.tp_rsd = '';
+outputroot.tp_red = '';
+outputroot.od_rsd = '';
+outputroot.od_red = '';
+outputroot.fuel_type = '';
+outputroot.cubic_capacity = '';
+outputroot.broker_code = '';
+outputroot.partner_name = '';
+outputroot.save_percentage = '';
+outputroot.title = '';
+outputroot.aadhar = '';
+outputroot.customer_dob_input = '';
+outputroot.cmp_gst_no = '';
+outputroot.prev_insurer_name = '';
+outputroot.prev_policy_no = '';
+outputroot.od_prev_insurer_name = '';
+outputroot.city = '';
+outputroot.reg_area = '';
+outputroot.reg_houseno = '';
+outputroot.reg_street = '';
+outputroot.communi_pincode = '';
+outputroot.communi_state = '';
+outputroot.communi_city = '';
+outputroot.communi_area = '';
+outputroot.communi_houseno = '';
+outputroot.communi_street = '';
+outputroot.commaddress = '';
+outputroot.nominee_name = '';
+outputroot.nominee_relationship = '';
+outputroot.financier_details = '';
+outputroot.financieraddress = '';
+outputroot.contract_no = '';
+outputroot.proposal_id = '';
+outputroot.quote_id = '';
+outputroot.plan_1 = '';
+outputroot.emi_entered = '';
+outputroot.sel_time_excess = '';
+outputroot.registrationcost = '';
+outputroot.roadtaxpaid = '';
+outputroot.unnamed_pa_si = '';
+
+outputroot.PrvyrClaim = (inputroot.is_ncb=='1')?('No'):(' ');
+outputroot.D2C_NCB_PERCENTAGE = (inputroot.is_ncb=='1')?(inputroot.prev_policy_ncb_per+'%'):('');
+outputroot.intermediary_code_rb = inputroot.dealer_code;
+outputroot.Customertype = (inputroot.proposer_type_id)?('Individual'):('Company');
+outputroot.reg_no = inputroot.registration_no;
+outputroot.YOM = inputroot.manufacturing_year;
+outputroot.engine_no = inputroot.engine_no;
+outputroot.chassis_no = inputroot.chassis_no;
+outputroot.chola_value_added_services = 'No';
+outputroot.vehicle_model_code = (inputroot.variant_id).toString();
+outputroot.rto_location_code = inputroot.rto_id;
+outputroot.retail_brokering_dtd_edit = inputroot.selected_od_discount;
+if(inputroot.proposer_type_id == '1'){
+		outputroot.first_name = inputroot.proposer_first_name + '' + inputroot.proposer_middle_name+'' + inputroot.proposer_last_name;
+	    outputroot.phone_no = inputroot.proposer_mobile_no;
+        outputroot.mobile_no = inputroot.proposer_mobile_no;
+        outputroot.email_id = inputroot.proposer_email;
+        outputroot.fullName = 'dummy';               
+        outputroot.cus_mobile_no = inputroot.proposer_mobile_no;
+        outputroot.email = inputroot.proposer_email; 
+        outputroot.pincode = inputroot.proposer_pincode; 
+        outputroot.reg_pincode = inputroot.proposer_pincode;
+        outputroot.state = 'TAMILNADU';
+        outputroot.IMDState = '33'
+        outputroot.reg_state = 'TAMILNADU';
+        outputroot.place_of_reg_short_code = 'TN';
+        outputroot.reg_city = '6498';
+        outputroot.city_of_reg = '6498';
+        outputroot.reg_toggle = false;
+        outputroot.address = inputroot.proposer_address1 + '||' + inputroot.proposer_address2;
+}else{
+		outputroot.first_name = inputroot.company_owner_fisrt_name + '' + inputroot.company_owner_middle_name+'' + inputroot.company_owner_last_name;
+	    outputroot.phone_no = inputroot.company_owner_mobile;
+        outputroot.mobile_no = inputroot.company_owner_mobile;
+        outputroot.email_id = inputroot.company_owner_email;
+        outputroot.fullName = 'dummy';               
+        outputroot.cus_mobile_no = inputroot.company_owner_mobile;
+        outputroot.email = inputroot.company_owner_email; 
+        outputroot.pincode = inputroot.company_owner_pincode; 
+        outputroot.reg_pincode = inputroot.company_owner_pincode;
+        outputroot.state = 'TAMILNADU';
+        outputroot.IMDState = '33'
+        outputroot.reg_state = 'TAMILNADU';
+        outputroot.place_of_reg_short_code = 'TN';
+        outputroot.reg_city = '6498';
+        outputroot.city_of_reg = '6498';
+        outputroot.reg_toggle = false;
+        outputroot.address = inputroot.company_owner_address_1 + '||' + inputroot.company_owner_address_2;
+}
+outputroot.prev_policy_no = inputroot.other_tp_policy_no;
+outputroot.prev_insurer_name = '';
+outputroot.od_prev_policy_no = inputroot.prev_policy_no;
+outputroot.hypothecated = 'No';
+outputroot.idv_input = inputroot.idv;
+outputroot.product_id = 'M00000013';
+outputroot.sel_policy_type = 'Long Term';
+outputroot.prev_exp_date_comp = '';
+outputroot.no_previous_insurer_chk = true;
+outputroot.no_prev_ins = 'Yes';
+outputroot.IMDShortcode_Dev = 'TVs';
+outputroot.pa_cover = (inputroot.cpa_current_tenure != '0')?('Yes'):('No');
+outputroot.unnamed_cover_opted = (inputroot.is_pa_unnamed_persons == '1')?(inputroot.pa_suminsured_per_unnamed_person):('');
+outputroot.unnamed_pa_si = (inputroot.is_pa_unnamed_persons == '1')?(inputroot.pa_suminsured_per_unnamed_person):('');
+outputroot.paid_driver_opted = (inputroot.is_pa_paid_driver == '1') ? ('Yes'):('No');
+outputroot.NilDepselected = (inputroot.is_addon_nildep == '1') ? ('Yes'):('No');
+outputroot.ncb_protect_app = 'No';
+outputroot.tppd_restriction_app = (inputroot.ext_tppd == '0') ? ('No'):('Yes');
+outputroot.vehicle_replacement_advantage_app = 'No';
+outputroot.reinstatement_value_basis = 'No';
+outputroot.daily_cash_allowance = 'No';
+outputroot.sel_allowance = 'Rs. 250 per day allowance'; 
+outputroot.monthly_installment_cover = 'No';
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

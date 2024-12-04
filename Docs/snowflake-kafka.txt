@@ -1,0 +1,7 @@
+1. What do we do with Snowflake integrations (3 to 4 use cases)
+2. Challenges
+3. AFGroup Event BUs (KAfka)
+4. Advantages of Kafka
+5. Leveraging Kafka for snowflake integration
+6. Advantages
+7. The POC

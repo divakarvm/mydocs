@@ -1,0 +1,34 @@
+Guidewire
+Duckcreek
+Socotra
+OneShield
+
+
+
+ArrayList mylist;
+
+string
+number
+double
+student
+
+NOSQL DB
+document databases
+
+
+
+
+SQLServerDB Connector
+
+hostname
+port
+credentials
+sshkey
+
+connections in the pool : 30
+
+
+DDL, DCL, DML
+
+;
+table, what is the operation

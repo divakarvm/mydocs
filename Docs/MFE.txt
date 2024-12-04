@@ -1,0 +1,16 @@
+1) Webpak 5 - Module federation , does it work with Angular ?
+singlespa
+TradeOff analysis
+
+How to do with Webpak5 with samples
+and with SingleSpa
+
+
+We have to prepare guidelines, main page auth state, how to send the token to subsequent flows/pages (state management)
+Routing/navigation
+
+Design aspects/architect aspects
+	naming conventions
+more on Angular 13
+
+frameworks

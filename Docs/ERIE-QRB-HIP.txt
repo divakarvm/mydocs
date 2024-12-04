@@ -1,0 +1,24 @@
+What is HIP ?
+
+15mns
+
+3 topics to cover
+5 min for each topic
+
+3rd option - new agent platform (HIP)
+chances of getting more questions
+
+intro of HIP
+what options are there
+HIP architecture
+
+Why new HIP options
+-bcoz of delay from IBM
+
+our recommendation is Option 1
+
+effort for option 1 (IBM CloudPak PaaS)??
+
+IBM informed that they will deliver IBM CLoudPak SAAS (Option 2)
+
+If IBM delays indefinetely, then for other options

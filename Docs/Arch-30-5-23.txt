@@ -1,0 +1,26 @@
+July 14 - Prod
+
+July 4 - Prod replica
+
+June 16th - Stage (Business can test)
+------------------------------------------------
+
+June 30 th - Stage
+?? - Int
+June 20 th - Dev
+
+
+
+Activities
+
+MFE Implementations (x count)
+
+GitHub Repo creation
+JFrog placeholders creations
+ArgoCD Project creation
+
+
+
+Highlight the risks
+CodeMerge 
+Performance testing on which env ?

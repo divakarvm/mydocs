@@ -1,0 +1,34 @@
+Deepak
+Suresh
+
+USAA - 
+
+
+Personal Auto product based on usage in USAA
+
+API Studio to expand your distribution
+
+Siva Kott - vertical head (chub studio)
+AFGroup - 
+
+
+Deepak is looking for building a partner agnostic independent API layer
+
+Socotra - COTS product like GuideWire
+
+
+Vara is going to schedule a call in a week
+
+adding more products (config driven), easily
+supporting multiple partners
+
+
+3 components
+
+1. Independent API Layer with a prototype
+        a. 
+	come up with a solution with Jeff's guidance where the solution should have detailed drafting
+2. API Portal - (you can refer AFGRoup blueprint that we created) 
+      - work with vyasaraj to have that ported to Figma and makeit demonstratable asset
+3. Automated API Lifecyle mgmt. (AWS API Gateway)
+

@@ -1,0 +1,15 @@
+Basis for estimates
+
+Assumptions
+
+What changed/differences
+
+Timeline sheet
+
+Revised architecture diagram
+
+Prior estimates
+
+Risks
+Onsite arch position changed to Lead
+additional scope and changes

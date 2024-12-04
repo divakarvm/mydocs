@@ -1,0 +1,4 @@
+1. simplify SP migration (low level design - adequate)
+2. Jyothi & Mahendra to call Lakshman
+3. Jai Suresh
+4. 

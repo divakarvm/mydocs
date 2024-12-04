@@ -1,0 +1,9 @@
+2 actions
+
+ci and release
+
+ci/build and test -> notification
+for now sonar scans are disabled in the current ci
+notification does the promotion 
+
+surety jboss is a different repository for deployment

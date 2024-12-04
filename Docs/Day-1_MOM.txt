@@ -1,0 +1,32 @@
+LVPEI's in house developed application on LAMP stack is named as eyeSmart.
+
+Currently it is serving over ~300 nodes (All LV Prasad prime locations, Tertiary locations, Secondary health care centers, Primary health care centers), LVPEI also have 2 android based applications which are used by primary health care center and the ones who visit remote villages to capture eye care information of patients, these apps are offline, they collect data and sync to EMR at the end of the day when they have internet connectivity), All these are planned and developed before 2015 when internet connectivity was an issue in remote locations.
+
+Primary objectives of LVPEI
+. They need good performance by leveraging latest technologies and make the application as cloud native
+. Cost benefit, right now all the LVPEI prime locations are having their own data centers (each location has its own data center), its an decentralised architecture.
+. The two android applications are having at max 5 forms, LVPEI is looking to integrate both the apps into one.
+
+Vision
+. VM to start working on deriving a solution architecture which has to be cloud native for the Inventory module. LVPEI has inventory module handled through SAP system, but the new customers who are getting onboarded for eyeSmart are looking for a low cost Inventory module instead of subscribing to SAP.
+When we say customers, these are the vision care centers who are willing to buy the eyeSmart application from LVPEI
+
+
+Database need not be modified, but we can provide a API layer to fetch data from this db to show on the EMR application along with new database structure which may be derived with the new architecture design proposed by VM
+
+Current version of PHP is 5, Mysql is 5.x
+
+Right now, access credentials for the eyeSmart web application are driven by DB, they are looking for an SSO based authentication and authorization.
+
+Each new customer onboarded is given customised eyeSmart application deployed on cloud virtual machines, with failover on a different cloud vendor. Close to 33 customers are currently onboarded. LVPEI has a team of around 5 members who are managing these customer accounts.
+
+Ex: Primary application deployment is made on AWS, failover is deployed on GCP
+
+Client's primary choice for cloud vendor is AWS. Client prefers to come with solution architecture after the KT sessions are done mostly leveraging SOA and cloud native.
+
+LVPEI currently using ZOHO to manage tickets raised by customers and internal application users. Separate team works on resolving these tickets on priority
+
+eyeSmart application
+. Till now the application has close to 3 versions.
+. It has 10 modules
+. Pharmacy module is yet to be finalised by LVPEI for this solution architecture exercise, Client mentioned by Monday 2/13 he can confirm.

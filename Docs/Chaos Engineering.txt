@@ -1,0 +1,6 @@
+Chaos Engineering
+
+Controlled, not random
+
+It is to validate your environment's reliability in case of failures
+

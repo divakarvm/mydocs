@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PolicyPeriod>
+  <AssignedRisk>false</AssignedRisk>
+  <BaseState>NJ</BaseState>
+  <PeriodAnswers>
+    <Entry>
+      <BooleanAnswer>false</BooleanAnswer>
+      <QuestionCode>FuelsAndExplosives</QuestionCode>
+    </Entry>
+    <Entry>
+      <BooleanAnswer>false</BooleanAnswer>
+      <QuestionCode>DeepFry</QuestionCode>
+    </Entry>
+    <Entry>
+      <BooleanAnswer>false</BooleanAnswer>
+      <QuestionCode>Operates24Hours</QuestionCode>
+    </Entry>
+    <Entry>
+      <BooleanAnswer>false</BooleanAnswer>
+      <QuestionCode>MotorVehOperation</QuestionCode>
+    </Entry>
+    <Entry>
+      <BooleanAnswer>false</BooleanAnswer>
+      <QuestionCode>Unionized</QuestionCode>
+    </Entry>
+    <Entry>
+      <IntegerAnswer>1000000</IntegerAnswer>
+      <QuestionCode>TotalAnnualPayroll</QuestionCode>
+    </Entry>
+  </PeriodAnswers>
+  <PeriodEnd>2025-05-25T00:01:00+00:00</PeriodEnd>
+  <Policy>
+    <PrimaryLanguage>en_US</PrimaryLanguage>
+    <PriorPremiums>0.00 usd</PriorPremiums>
+  </Policy>
+  <PolicyContactRoles>
+    <Entry>
+      <AccountContactRole>
+        <entity-NamedInsured>
+          <IndustryCode>
+            <Code>4724</Code>
+          </IndustryCode>
+        </entity-NamedInsured>
+        <AccountContact>
+          <Contact>
+            <Name>ABC Service</Name>
+            <PrimaryAddress>
+              <AddressLine1>220 Old New Brunswick Rd #100</AddressLine1>
+              <AddressType>business</AddressType>
+              <City>Tampa</City>
+              <Country>US</Country>
+              <County>Piscataway</County>
+              <PostalCode>08854</PostalCode>
+              <State>NJ</State>
+            </PrimaryAddress>
+            <PublicID>pc:3303</PublicID>
+            <Subtype>Company</Subtype>
+          </Contact>
+        </AccountContact>
+        <Subtype>NamedInsured</Subtype>
+      </AccountContactRole>
+      <Subtype>PolicyPriNamedInsured</Subtype>
+    </Entry>
+    <Entry>
+      <AccountContactRole>
+        <AccountContact>
+          <Contact>
+            <Name>ABC Service</Name>
+            <PrimaryAddress>
+              <AddressLine1>220 Old New Brunswick Rd #100</AddressLine1>
+              <AddressType>business</AddressType>
+              <City>Tampa</City>
+              <Country>US</Country>
+              <County>Piscataway</County>
+              <PostalCode>08854</PostalCode>
+              <State>NJ</State>
+            </PrimaryAddress>
+            <PublicID>pc:3303</PublicID>
+            <Subtype>Company</Subtype>
+          </Contact>
+        </AccountContact>
+        <Subtype>LaborClient</Subtype>
+      </AccountContactRole>
+      <Subtype>PolicyLaborClient</Subtype>
+    </Entry>
+  </PolicyContactRoles>
+  <PolicyLocations>
+    <Entry>
+      <AccountLocation>
+        <AddressLine1>220 Old New Brunswick Rd #100</AddressLine1>
+        <AddressType>business</AddressType>
+        <City>Tampa</City>
+        <Country>US</Country>
+        <County>Piscataway</County>
+        <EmployeeCount>10</EmployeeCount>
+        <GeocodeStatus>none</GeocodeStatus>
+        <LocationNum>1</LocationNum>
+        <NonSpecific>false</NonSpecific>
+        <PostalCode>08854</PostalCode>
+        <State>NJ</State>
+      </AccountLocation>
+      <LocationNum>1</LocationNum>
+    </Entry>
+  </PolicyLocations>
+  <PreferredCoverageCurrency>usd</PreferredCoverageCurrency>
+  <PreferredSettlementCurrency>usd</PreferredSettlementCurrency>
+  <PrimaryNamedInsured>
+    <AccountContactRole>
+      <AccountContact>
+        <Contact>
+          <Name>ABC Service</Name>
+          <PrimaryAddress>
+            <AddressLine1>220 Old New Brunswick Rd #100</AddressLine1>
+            <AddressType>business</AddressType>
+            <City>Tampa</City>
+            <Country>US</Country>
+            <County>Piscataway</County>
+            <PostalCode>08854</PostalCode>
+            <State>NJ</State>
+          </PrimaryAddress>
+          <PublicID>pc:3303</PublicID>
+          <Subtype>Company</Subtype>
+        </Contact>
+      </AccountContact>
+    </AccountContactRole>
+  </PrimaryNamedInsured>
+  <UWCompany>
+    <Code>1111_11111</Code>
+    <DisplayName>Acme Low Hazard Insurance</DisplayName>
+  </UWCompany>
+  <WrittenDate>2024-01-09T00:00:00+00:00</WrittenDate>
+  <EffectiveDatedFields>
+    <ProducerCode>
+      <Code>301-008580</Code>
+    </ProducerCode>
+  </EffectiveDatedFields>
+  <ProducerOfRecord>
+    <Name>Commercial insurers</Name>
+  </ProducerOfRecord>
+  <EditEffectiveDate>2024-05-25T00:01:00+00:00</EditEffectiveDate>
+  <TotalPremiumRPT_amt>61934.00</TotalPremiumRPT_amt>
+  <TotalCostRPT_amt>66269.00</TotalCostRPT_amt>
+  <Forms>
+    <Entry>
+      <FormDescription>Workers Compensation and Employers Liability Insurance Policy</FormDescription>
+      <FormNumber>WC 00 00 00</FormNumber>
+    </Entry>
+    <Entry>
+      <FormDescription>Notice</FormDescription>
+      <FormNumber>StateNotice NJ</FormNumber>
+    </Entry>
+    <Entry>
+      <FormDescription>Part Two Employers Liability Endorsement</FormDescription>
+      <FormNumber>WC 29 03 06A</FormNumber>
+    </Entry>
+    <Entry>
+      <FormDescription>Limited Other States Insurance Endorsement</FormDescription>
+      <FormNumber>WC 29 03 09A</FormNumber>
+    </Entry>
+  </Forms>
+  <Job>
+    <JobNumber>0002949811</JobNumber>
+  </Job>
+  <IsScEnable>true</IsScEnable>
+  <IsExstreamEnable>false</IsExstreamEnable>
+</PolicyPeriod>

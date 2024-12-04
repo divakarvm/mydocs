@@ -1,0 +1,4 @@
+Token
+DB lookups >> 
+quote -> finalize
+Response mapping

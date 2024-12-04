@@ -1,0 +1,10 @@
+Sales UI - React UI
+
+2 builds
+- regular dot.com site
+- Only for MSR (Managed Service Representative)
+
+
+Launch this MSR UI from APP (Conversant)
+
+

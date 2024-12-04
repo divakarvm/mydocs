@@ -1,0 +1,21 @@
+for every capability - System Apis
+and story for it
+
+
+3 System APIs
+
+Commercial
+
+Contract
+
+Common/Transactional
+
+
+
+
+Domain Analysis
+
+Excel with 
+1. list out of each capability
+2. Each capability, list out queries and commands
+3. 

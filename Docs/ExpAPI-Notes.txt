@@ -1,0 +1,37 @@
+Phase 1 
+	Angular 14 to Prod
+	
+
+
+Phase 2 - Commercial Module ( July to Sep )
+Exp API Layer (only commercial related) for below and the respective UI changes
+	Account
+	Bond Servicing
+
+We will come to know by Jul 14th on what modules can be completed. until stage
+
+Moving Commercial related SPs to Java layer
+Update UI with commercial related features
+
+Testing for transactional part - to be tested by VM
+
+Phase 3 - Contract Module (Sep to )
+
+
+
+
+Phase 4 - 
+Leftover functionality (Quick quote, my work queue etc.) of exp api and backend will be moved to PROD
+Account and Bond may be impacted due to ongoing changes from Arch team on new features
+
+--------------------
+Estimates with complexity
+Guesstimate on Risks/blockers in Exp API layer
+
+
+
+-------------------------
+Design risks
+Performance hit risk is there
+
+

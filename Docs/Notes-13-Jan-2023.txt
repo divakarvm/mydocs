@@ -1,0 +1,32 @@
+12 factor app developement for cloud native
+
+
+Platform - Hardware or Software
+	Does it support transformations
+	what are the scripting language to be learnt in order to write the tranformation logic
+	How easy is it to develop
+	How to promote - CI/CD, who can do the promotion
+	How are the environments handled (within the same instance or each env has different/seperate instance)
+	How to plan for the port number allocation
+	SSL
+	File handling is it a shared/externally mounted folder
+	Caching
+	
+	
+Is the API a passthru or has transformations
+	If transformations are there how heavy are they
+	Based on the knowledge we have from the team, is the tranformation logic needs to be implemented in dataweave or Java or xslt
+	Best practices and coding standards to follow
+	code review to remove unnecessary imports or empty tags
+	Logging - Handling PII/sensitive data, Level of logging
+	Attaching policies
+	How the access to the API is managed
+	How to caculated the latency
+	How to improve the performance
+	Troubleshooting
+	Externalizing the config like policy governancez
+	
+	
+	
+	
+	

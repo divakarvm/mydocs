@@ -1,0 +1,7 @@
+Observability >> 20th
+
+Clean architecture for Java >> 
+
+Further action items
+UML - Class diagrams
+sequence diagram for both read and write calls in clean architecture

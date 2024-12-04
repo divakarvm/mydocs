@@ -1,0 +1,14 @@
+Conversant - UI >> you should get logged in user details "agent-a"
+
+UI - Service Layer >> you should get the agent details "PURECONT001"
+
+Service layer - GW >> you should pass the agent details
+
+GW
+PRODUCER CODE >> PDMSVM0001
+PRODUCER CODE for Deloitte >> PDMSDEL0001
+
+
+Divakar.kadupu@valuemomentum.com
+divakark >> VAM 6709 --> AD integration
+

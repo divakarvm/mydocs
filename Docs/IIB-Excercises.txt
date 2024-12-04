@@ -1,0 +1,12 @@
+Exercise 1: Integration node setup and customization 
+Exercise 2: Connecting to IBM MQ  
+Exercise 3: Using the IBM Integration Toolkit 
+Exercise 4: Administering the IBM Integration Bus runtime components 
+Exercise 5: Using file-based security to control administration access 
+Exercise 6: Using queue-based security to control administration access 
+Exercise 7: Implementing web services and web services security  
+Exercise 8: Using problem diagnosis tools
+Exercise 9: Identifying runtime problems
+Exercise 10: Viewing runtime statistics
+Exercise 11: Administering workload management policies 
+Exercise 12: Recording and replaying message flow data

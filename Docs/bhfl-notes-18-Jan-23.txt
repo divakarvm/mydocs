@@ -1,0 +1,21 @@
+as part of BHFL's digital strategy, they want to mature and streamline their digital capabilities in terms of platform, lifecycle management, DevOps and development acceleration.
+
+They are focusing on
+
+Goals
+
+1. API Platform - Establish API/Microservices platform which was envisioned and planned as part of API modernization strategy delivered by VM in 2021
+
+2. Migrate approximately 200 services to new micro services architecture.
+
+3. Establish API lifecyle mgmt to enable seamless and secure partner integration
+
+4. Define devops implementation approach for api/micro services
+
+5. 
+
+
+Discovery objectives
+
+1. BHFL wants VM to setup API as a platform cutting across entire org by exploring current application lanscape.
+2. VM to provide a holistic consultation on based on the current API infrastructure.

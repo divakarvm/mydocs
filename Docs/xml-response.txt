@@ -1,0 +1,4 @@
+<Response>
+	<statusCode></statusCode>
+	<statusMessage></statusMessage>
+</Response>
